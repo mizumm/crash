@@ -2,5 +2,5 @@ task:
   container:
     image: registry.fedoraproject.org/fedora:33
 
-  setup_script:
-    - date
+  setup_packages:
+    - dnf install -y git make wget patch diffutils file ncurses-devel zlib-devel lzo-devel snappy-devel bison readline-devel gcc gcc-c++ valgrind-devel
