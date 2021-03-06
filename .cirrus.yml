@@ -1,0 +1,2 @@
+container:
+  image: registry.fedoraproject.org/fedora:33
