@@ -1,2 +1,5 @@
 container:
   image: registry.fedoraproject.org/fedora:33
+
+setup_script:
+  - date
