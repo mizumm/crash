@@ -4,3 +4,6 @@ task:
 
   setup_script:
     dnf install -y git make wget patch diffutils file ncurses-devel zlib-devel lzo-devel snappy-devel bison readline-devel gcc gcc-c++ valgrind-devel
+
+  make_script:
+    make
